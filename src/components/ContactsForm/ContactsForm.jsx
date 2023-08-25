@@ -19,7 +19,6 @@ const ContactsForm = ({ addContact }) => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    // const contactsList = AppContacts;
     const nameExists = contacts.some(
       contact => contact.name.toLowerCase() === name.toLowerCase()
     );
